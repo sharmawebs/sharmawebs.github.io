@@ -1,0 +1,38 @@
+.main-article-title{
+	font-size: 2em;
+	font-weight: bold;
+}
+.main-article-category,.author-name:hover,.sub-article-author:hover{
+	color: rgba(0,0,0,0.4);
+}
+.main-article-category:hover,.main-article-title:hover,.author-name,.sub-article-title:hover,.sub-article-category:hover,.demo-link:hover{
+	text-decoration: underline;
+}
+footer{
+	color: #fff;
+	background-color: #343a48; 
+}
+.recent-articles{
+	font-size: 1.7em;
+	font-weight: bold;
+}
+sub-article-title{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.sub-article-category,.sub-article-date{
+	color: rgba(0,0,0,0.4);
+	font-size: 0.8em;
+}
+.sub-article-author{
+	text-decoration: underline;
+	font-size: 0.8em;
+}
+.demo-link{
+	color: blue;
+}
+.sponsors{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgba(0,0,0,0.4);
+}
