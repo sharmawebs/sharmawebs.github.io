@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SharmaWebs</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <!-- Style -->
@@ -16,11 +15,17 @@
         color: ghostwhite;
         font-size: 140%;
       }
+      .carousel-caption h3{
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px black;
+        
+      }
     </style>
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark mx-10">
-		<a href="#" class="navbar-brand" id="brand">SHARMAWEBS </a>
+    <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark p-1">
+    <img src="img/3.png" class="navbar-brand img-responsive" width="40px" height="50px" />
+		<a href="#" class="navbar-brand" id="brand">SHARMAWEBS</a>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbars" type="button">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -33,51 +38,139 @@
 			</ul>
 		</div>
     </nav>
-    <div class="jumbotron text-center">
-      <h1>Website Under Construction!</h1>
-      <p>Ashuvidha Ke Liye Khed Hai!</p> 
-    </div>
+    
+    <!--Carousel-->
+      <div id="demo" class="carousel slide mt-1" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.w3schools.com/bootstrap4/la.jpg" width="100%" alt="Los Angeles">
+            <div class="carousel-caption">
+                <h3>Website Under Construction</h3>
+                <p>Asuvidha Ke Liye Khed Hai!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" width="100%" alt="Chicago">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>We had such a great time in LA!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.w3schools.com/bootstrap4/ny.jpg" width="100%" alt="New York">
+            <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
     <div class="container-fluid">
-        <div id="heading1" class="text-center display-4"> Trending </div><hr> 
-        <div class="d-flex flex-wrap justify-content-around">
-          <div class="p-2 d-inline-flex">
-            <div class="card" style="width:18rem">
-                <img src="img/motorolaFolding PhoneCredit-Austroid.jpg" alt="Card image cap" class="card-img-top">
-                <div class="card-body">
-                  <div class="card-text">Motorola folding phone patent leaked</div>
-                </div>`
+      <div id="heading1" class="text-center display-4"> Trending </div><hr> 
+      <div class="d-flex flex-wrap justify-content-around">
+        <div class="p-2 d-inline-flex">
+          <div class="card shadow" style="width:18rem">
+              <img src="img/motorolaFolding PhoneCredit-Austroid.jpg" alt="Card image cap" class="card-img-top">
+              <div class="card-body">
+                <div class="card-text text-center">
+                  Motorola folding phone patent leaked
+                  <span><a href="#" class="text-muted stretched-link"></a></span>
+                </div>
               </div>
+            </div>
         </div>
         <div class="p-2 d-inline-flex">
-            <div class="card" style="width:18rem">
+            <div class="card shadow" style="width:18rem">
                 <img src="img/motorolaFolding PhoneCredit-Austroid.jpg" alt="Card image cap" class="card-img-top">
                 <div class="card-body">
-                  <div class="card-text">Motorola folding phone patent leaked</div>
+                  <div class="card-text text-center">Motorola folding phone patent leaked
+                  <span><a href="#" class="text-muted stretched-link"></a></span></div>
                 </div>
               </div>
         </div>
         <div class="p-2 d-inline-flex">
-            <div class="card" style="width:18rem">
+            <div class="card shadow" style="width:18rem">
                 <img src="img/motorolaFolding PhoneCredit-Austroid.jpg" alt="Card image cap" class="card-img-top">
                 <div class="card-body">
-                  <div class="card-text">Motorola folding phone patent leaked</div>
+                  <div class="card-text text-center">Motorola folding phone patent leaked
+                  <span><a href="#" class="text-muted stretched-link"></a></span></div>
                 </div>
               </div>
         </div>
-      </div>
-      </div>
-      <hr style="border-top: 1px dotted">
-      <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action">First</a>
-        <a href="#" class="list-group-item list-group-item-action">Second</a>
-        <a href="#" class="list-group-item list-group-item-action">Third</a>
-        <a href="#" class="list-group-item list-group-item-action">Fourth</a>
       </div>
     </div>
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>Sharma<span>webs</span></h3>
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">Blog</a>
+          ·
+          <a href="#">About</a>
+          ·
+          <a href="#">Contact</a>
+          ·
+          <a href="#">Advertise</a>
+          ·
+          <a href="#">FAQ</a>
+        </p>
+        <p class="footer-company-name">Sharmawebs &copy; 2019</p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Bhagatpura</span> Phagwara, Punjab</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:sharmawebss@gmail.com">sharmawebss@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Us</span>
+          We are a group of passionate tech professionals, our mission is to help people shape a better future.
+        </p>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/sharmawebss" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.twitter.com/sharmawebs1"  target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/sharmawebs"  target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.github.com/sharmawebs" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
     
     <!---Google Roboto-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
-    <!--------->
+    
+    <!--Google Cookie-->
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    
+    <!--Footer Style-->
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!--Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
