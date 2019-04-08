@@ -15,10 +15,9 @@
         color: ghostwhite;
         font-size: 140%;
       }
-      .carousel-caption h3{
+      .carousel-caption h3,.carousel-caption p{
         color: white;
-        text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px black;
-        
+        text-shadow: 1px 1px 40px black, -1px -1px 40px black;
       }
     </style>
 </head>
@@ -40,7 +39,7 @@
     </nav>
     
     <!--Carousel-->
-      <div id="demo" class="carousel slide mt-1" data-ride="carousel">
+      <div id="demo" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -83,7 +82,7 @@
       </div>
 
     <div class="container-fluid">
-      <div id="heading1" class="text-center display-4"> Trending </div><hr> 
+      <div id="heading1" class="text-center display-4 mt-2"> Trending </div><hr> 
       <div class="d-flex flex-wrap justify-content-around">
         <div class="p-2 d-inline-flex">
           <div class="card shadow" style="width:18rem">
@@ -166,8 +165,8 @@
     
     <!--Footer Style-->
     <link rel="stylesheet" href="css/footer.css">
-    
-    <!--Font Awesome-->
+ 
+    <!-- Google Icons -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
     <!--Javascript -->
